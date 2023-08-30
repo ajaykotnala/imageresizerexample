@@ -1,0 +1,29 @@
+{
+  "name": "imageresizerexample",
+  "version": "1.0.0",
+  "description": "image size code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect --ignore tests/ ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaykotnala/imageresizerexample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajaykotnala/imageresizerexample/issues"
+  },
+  "homepage": "https://github.com/ajaykotnala/imageresizerexample#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
